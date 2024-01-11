@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Pushpak - Home</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Your custom CSS -->
+  <style>
+    /* Custom CSS for Game Cards */
+    .game-card {
+      margin-top: 20px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    .game-card img {
+      width: 100%;
+      height: auto;
+    }
+
+    .game-card .card-title {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+
+    .game-card .card-text {
+      font-size: 1rem;
+    }
+
+    /* Display cards in a row on larger screens */
+    @media (min-width: 576px) {
+      .game-card {
+        margin-right: 20px;
+        flex: 0 0 calc(33.333% - 20px); /* Display three cards in a row */
+      }
+
+      .game-card:last-child {
+        margin-right: 0; /* Remove margin from the last card in the row */
+      }
+    }
+
+    /* Skeleton Loader Styles */
+.card {
+  border: 1px solid #ddd; /* Add border for better visualization */
+}
+
+.skeleton-img {
+  height: 350px; /* Adjust height as needed */
+  background-color: #eee;
+}
+.skeleton-img h2{
+    text-align: center;
+    background-color: #eee;
+}
+.skeleton-title {
+  height: 20px; /* Adjust height as needed */
+  width: 50%; /* Adjust width as needed */
+  background-color: #eee;
+  margin-top: 10px; /* Adjust margin as needed */
+}
+
+.skeleton-text {
+  height: 50px; /* Adjust height as needed */
+  background-color: #eee;
+  margin-top: 10px; /* Adjust margin as needed */
+}
+
+.skeleton-button {
+  height: 30px; /* Adjust height as needed */
+  width: 30%; /* Adjust width as needed */
+  background-color: #eee;
+  margin-top: 10px; /* Adjust margin as needed */
+}
+
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Menu -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Pushpak</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Games</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <!-- Main Content -->
+<div class="container mt-5">
+    <h1>Welcome to Pushpak</h1>
+    <p>Explore our exciting games and experience the thrill of gaming excellence.</p>
+  
+    <!-- Game Cards -->
+    <div class="d-flex flex-wrap justify-content-between">
+      <!-- Card 1 -->
+      <div class="card game-card mt-4">
+        <img src="TheImmortalLion/tillogo.png" class="card-img-top" alt="The Immortal Lion">
+        <div class="card-body">
+          <h5 class="card-title">The Immortal Lion</h5>
+          <p class="card-text">Embark on a wild adventure as a powerful lion hunting agile deer in dynamically generated landscapes.</p>
+          <a href="https://srikantasaho0.github.io/Pushpak/TheImmortalLion/" class="btn btn-primary">DOWNLOAD</a>
+        </div>
+      </div>
+  
+      <!-- Skeleton Loader for Future Update (Card) -->
+        <div class="card game-card mt-4">
+            <div class="skeleton-img"><h2>Coming Soon..</h2></div>
+            <div class="card-body">
+            <div class="skeleton-title"></div>
+            <div class="skeleton-text"></div>
+            <div class="skeleton-button"></div>
+            </div>
+        </div>
+                <!-- Skeleton Loader for Future Update (Card) -->
+        <div class="card game-card mt-4">
+            <div class="skeleton-img"><h2>Coming Soon..</h2></div>
+            <div class="card-body">
+            <div class="skeleton-title"></div>
+            <div class="skeleton-text"></div>
+            <div class="skeleton-button"></div>
+            </div>
+        </div>
+  
+  
+  
+    </div>
+  </div>
+  
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3 mt-5">
+    <p>&copy; 2024 Pushpak. All Rights Reserved.</p>
+  </footer>
+
+  <!-- Bootstrap JS, Popper.js, and jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
